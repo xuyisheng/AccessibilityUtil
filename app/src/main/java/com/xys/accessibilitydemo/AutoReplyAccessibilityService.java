@@ -43,7 +43,7 @@ public class AutoReplyAccessibilityService extends BaseAccessibilityService {
                         if (!TextUtils.isEmpty(content)) {
                             locked = false;
                             background = true;
-                            sendNotifacationReply(event);
+                            notifyWechat(event);
                         }
                     }
                 }
@@ -108,9 +108,9 @@ public class AutoReplyAccessibilityService extends BaseAccessibilityService {
     /**
      * 拉起微信界面
      *
-     * @param event
+     * @param event event
      */
-    private void sendNotifacationReply(AccessibilityEvent event) {
+    private void notifyWechat(AccessibilityEvent event) {
         hasAction = true;
         if (event.getParcelableData() != null && event.getParcelableData() instanceof Notification) {
             Notification notification = (Notification) event.getParcelableData();

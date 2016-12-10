@@ -7,7 +7,7 @@ import android.view.accessibility.AccessibilityNodeInfo;
 
 import com.xys.accessibilitydemo.utils.BaseAccessibilityService;
 
-public class MyAccessibility extends BaseAccessibilityService {
+public class SearchHackAccessibilityService extends BaseAccessibilityService {
 
     private String mPackageName;
 

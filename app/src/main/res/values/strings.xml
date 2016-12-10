@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AccessibilityDemo</string>
+    <string name="clean">Clean Process</string>
+    <string name="demo">Demo</string>
+    <string name="reply">Auto Reply</string>
+    <string name="install">Auto Install</string>
+    <string name="defense">Self Defense</string>
+    <string name="browser">Browser Hack</string>
+</resources>
